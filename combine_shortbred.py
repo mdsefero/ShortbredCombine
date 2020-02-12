@@ -1,8 +1,8 @@
 #This concatenates shortbred output files. To work, files have to be in the same folder and be of one marker type and ending with 'out.txt'
-#It creates files by treatment based on ID, but defaults to 'other' if it can't classify
+#It creates separte outputs by specified sample group, and defaults to 'other' if it can't classify
 #Nov 2019
-#!/usr/bin/env python3
 
+#!/usr/bin/env python3
 import os
 
 control=['1084','1143','7260','1603','6347']
